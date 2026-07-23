@@ -22,8 +22,10 @@ nav {
     top: 0;
 }
 
-nav h2 {
+.logo {
     font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 nav ul {
