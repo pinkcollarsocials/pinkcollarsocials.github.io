@@ -139,3 +139,12 @@ footer {
     }
 
 }
+.logo img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+nav {
+    min-height: 80px;
+}
