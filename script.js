@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Scroll animations
-    const sections = document.querySelectorAll("section");
+    const sections = document.querySelectorAll("section:not(.no-animation)");
 
     const observer = new IntersectionObserver(
         (entries) => {
