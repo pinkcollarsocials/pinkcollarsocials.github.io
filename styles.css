@@ -540,3 +540,7 @@ nav {
     }
 
 }
+nav {
+    opacity: 1 !important;
+    transform: none !important;
+}
