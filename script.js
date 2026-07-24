@@ -1,41 +1,18 @@
-const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
 
 
-menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
+    if (menuToggle && navLinks) {
 
+        menuToggle.addEventListener("click", function () {
 
-
-const sections = document.querySelectorAll("section");
-
-
-const observer = new IntersectionObserver(
-    entries => {
-
-        entries.forEach(entry => {
-
-            if (entry.isIntersecting) {
-
-                entry.target.classList.add("show");
-
-            }
+            navLinks.classList.toggle("active");
 
         });
 
-    },
-    {
-        threshold: 0.15
     }
-);
 
-
-sections.forEach(section => {
-
-    section.classList.add("hidden");
-
-    observer.observe(section);
 
 });
-
