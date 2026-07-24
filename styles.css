@@ -330,3 +330,25 @@ nav {
     border: 2px solid #ff4fa3;
     transform: translateY(-10px);
 }
+.contact {
+    text-align: center;
+    background: #fff0f7;
+}
+
+
+.contact p {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+
+.contact-info {
+    margin: 30px 0;
+}
+
+
+.contact-info a {
+    color: #ff4fa3;
+    text-decoration: none;
+    font-weight: 600;
+}
