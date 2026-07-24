@@ -191,7 +191,28 @@ nav {
 .about-text {
     max-width: 600px;
 }
+.services {
+    text-align: center;
+}
 
+.card {
+    border: 1px solid #ffd1e7;
+    position: relative;
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #ff4fa3;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+}
 .about-text h2 {
     text-align: left;
     margin-bottom: 20px;
