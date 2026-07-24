@@ -234,3 +234,47 @@ nav {
     }
 
 }
+.portfolio {
+    text-align: center;
+}
+
+.portfolio-intro {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    color: #555;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+.portfolio-item {
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.placeholder {
+    height: 100%;
+    background: #ffd6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4fa3;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+}
