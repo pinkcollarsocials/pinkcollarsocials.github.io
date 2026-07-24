@@ -39,11 +39,3 @@ sections.forEach(section => {
 
 });
 
-<footer class="luxury-footer">
-    ...
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-</html>
